@@ -1,0 +1,9 @@
+Proxy (ou surrogate ou delegate)
+
+Algumas vezes pode ser necessário separar o acesso a um objeto de sua implementação. Alguns motivos podem ser:
+
+-Adicionar uma camada de segurança
+-Adicionar auditoria às chamadas
+-Permitir acesso transparente a recursos remotos
+-Permitir um contjunto limitado de objetos passam ser acessados simu8ltaneamente (acesso transparente a um pool de objetos)
+-Permitir caching de objetos
